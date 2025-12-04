@@ -25,5 +25,5 @@ The paper illustrates the approach on a **cart–pendulum obstacle-avoidance tas
 
 ----
 ## Training curves and comparisons
-![Training curves](figures/training_curves_comparison_confidence.pdf)
-![Comparisons](figures/tip_trajectories_comparison_no_shadows.pdf)
+![Training curves](figures/training_curves_comparison_confidence.png)
+![Comparisons](figures/tip_trajectories_comparison_no_shadows.png)
