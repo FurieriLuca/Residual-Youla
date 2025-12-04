@@ -3,7 +3,7 @@
 This repository contains the code, figures, and animations associated with the paper:
 
 > **“Learning Locally Exponentially Stabilizing Policies via Residual Youla Dynamics around Linear State Feedback”**  
-> Luca Furieri :contentReference[oaicite:0]{index=0}  
+> Luca Furieri
 
 The paper derives a **state-space characterization of all dynamic state-feedback controllers** that render an equilibrium of a nonlinear input-affine continuous-time system **locally exponentially stable**. Under a standard stabilizability assumption on the linearization, any such controller can be written as:
 - a linear baseline controller \(u(t) = Kx(t)\) (designed on the linearization),  
@@ -11,9 +11,8 @@ The paper derives a **state-space characterization of all dynamic state-feedback
 
 Conversely, every controller constructed in this way is locally exponentially stabilizing. This yields a **residual policy class** where:
 - stability is guaranteed by construction;  
-- performance objective and learning algorithm remain unconstrained. :contentReference[oaicite:1]{index=1}  
-
-The paper illustrates the approach on a **cart–pendulum obstacle-avoidance task**, showing improved performance compared with standard RL and residual-RL policy classes of comparable size. :contentReference[oaicite:2]{index=2}  
+- performance objective and learning algorithm remain unconstrained. 
+The paper illustrates the approach on a **cart–pendulum obstacle-avoidance task**, showing improved performance compared with standard RL and residual-RL policy classes of comparable size. 
 
 ---
 
