@@ -19,5 +19,11 @@ The paper illustrates the approach on a **cart–pendulum obstacle-avoidance tas
 
 ## Animation
 
-![Youla LES policy](animations/augmented_controller_animation.gif)
+![Youla LES policy](animations/augmented_controller_animation_resized.gif)
 
+
+
+----
+## Training curves and comparisons
+![Training curves](figures/training_curves_comparison_confidence.pdf)
+![Comparisons](figures/tip_trajectories_comparison_no_shadows.pdf)
