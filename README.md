@@ -21,25 +21,3 @@ The paper illustrates the approach on a **cart–pendulum obstacle-avoidance tas
 
 ![Youla LES policy](animations/augmented_controller_animation.gif)
 
-
----
-
-## Repository structure
-
-Adapt the paths below to your actual layout if needed. A typical structure is:
-
-```text
-.
-├── main.ipynb        # Main notebook
-├── figures/                  # Static figures used in the paper
-│   ├── fig1_tip_trajectory.png
-│   ├── fig2_training_curves.png
-│   └── ...
-├── animation/                # Animations of the trained controllers
-│   ├── youla_les_policy.mp4      # Proposed Youla-based locally exponentially stable (LES) policy
-│   ├── residual_mlp.mp4          # Residual MLP baseline
-│   ├── residual_lstm.mp4         # Residual LSTM baseline
-│   ├── pure_mlp.mp4              # Pure MLP policy
-│   ├── pure_lstm.mp4             # Pure LSTM policy
-│   └── ...
-└── README.md
