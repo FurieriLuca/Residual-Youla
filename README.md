@@ -14,6 +14,14 @@ Conversely, every controller constructed in this way is locally exponentially st
 - performance objective and learning algorithm remain unconstrained. 
 The paper illustrates the approach on a **cart–pendulum obstacle-avoidance task**, showing improved performance compared with standard RL and residual-RL policy classes of comparable size. 
 
+
+-----
+
+## Animation
+
+![Youla LES policy](animations/augmented_controller_animation.gif)
+
+
 ---
 
 ## Repository structure
